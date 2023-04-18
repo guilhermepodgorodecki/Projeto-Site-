@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    margin-top: 50px;
+}
+
+
+.aplications{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.aplications a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.body{
+    background-color: black;
+}
+
+.home{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    border: 2px solid #e90808;
+    border-radius: 10px;
+    background: red;
+    transition: 0.5s;
+}
+
+.linha{
+    margin-top: 40px;
+}
+
+
+.home:hover {
+    background: rgb(0, 0, 0, 0);
+    color: red;
+    box-shadow: inset 0 0 0 3px red;
+}
