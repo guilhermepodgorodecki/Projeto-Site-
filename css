@@ -48,54 +48,14 @@
     box-shadow: inset 0 0 0 3px red;
 }
 
-.para{
-    color: white;
-    border-width: 3px;
-    border-color: red;
-    border-style: solid;
-    border-radius: 10px 10px 10px 10px;
-    background-color: red;
-    width: 200px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 15px;
-    
-}
-
-.para2{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-}
-
-.texto{
-    margin-left: 240px;
-    margin-top: 160px;
-}
 
 .lista{
     color: white;
     margin-left: 222px;
     font-size: 1.5em;
-    font-family:'Courier New', Courier, monospace;
-    
+    font-family:'Courier New', Courier, monospace; 
 }
 
-.botao-form{
-    width: 300px;
-    height: 5em;
-    background-color: red;
-    border-radius: 20px;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.imagem{
-   margin-top: -30em;
-   margin-left: 60em;
-   width: 500px;
-}
 
 .cadastro{
     background-color: black;
@@ -149,4 +109,135 @@
     width: 195px;
     height: 3em;
     background-color: rgb(121, 129, 241);
+    border: none;
+    cursor: pointer;
+    
 }
+
+
+.container{
+    position: absolute;
+    width: 80%;
+    height: 550px;
+    top: 60%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.left{   
+    color: white;
+    width: 50%;
+}
+
+.right{
+    display: flex;
+    width: 50%;
+    margin-bottom: 150px;
+}
+
+
+#texto{
+    background-color: #f13e3e;
+    width: 290px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#texto2{
+    font-family: sans-serif;
+}
+
+.list{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 
+}
+
+#botao{
+    background-color: #f13e3e;
+    border: 10px;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    width: 50%;
+    font-size: 30px;
+    color: white;
+}
+
+.imagembody{
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+.container-login{
+    position: absolute;
+    width: 70%;
+    height: 550px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    
+}
+
+.left-login{
+    width: 50%;
+    display: flex;
+    background-color: black;
+}
+
+.right-login{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.texto-login{
+    width: 100%;
+    border-radius: 1px;
+    border: none;
+    background-color: #e9d6d6;
+    height: 30px;
+}
+
+#esqueceu-login{
+    text-decoration: none;
+    
+}
+
+#bottom{
+    width: 100%;
+    margin-top: 10px;
+    background-color: red;
+    border: 10px;
+    height: 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+}
+
+.username{
+    font-family: sans-serif;
+}
+
+#inscrever-login{
+    text-decoration: none;
+}
+
+#login-login{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.itens-login{
+    margin-top: 50px;
+}
+
+.fds{
+    background-image: linear-gradient(45deg, cyan, yellow);
+}
+
